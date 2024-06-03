@@ -13,6 +13,8 @@ const connect = async()=>{
 }
 };
 
+//this is second commit
+
 mongoose.connection.on("disconnected", ()=>{
     console.log("MongoDB disconnected")
 })
